@@ -55,7 +55,7 @@ based on dark.css by Ivan Sagalaev
 
 @media screen and (min-width: 1470px) {
     .slide p {
-        padding: 0px 17% !important;
+        padding: 0px 15% !important;
         font-size: 2.0rem !important;
     }
     #significado h4 {
@@ -63,7 +63,7 @@ based on dark.css by Ivan Sagalaev
     }
     
     .slide {
-    margin-top: -5%;
+        padding-bottom: 10%;
     }
 }
 
