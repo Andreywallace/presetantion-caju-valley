@@ -8,10 +8,8 @@ based on dark.css by Ivan Sagalaev
 .slide1 {
     height: 100%;
 }
-
-
-
 /* Celulares pequenos*/
+
 @media screen and (max-width: 470px) {
     .slides {
         top: 38% !important;
@@ -20,13 +18,12 @@ based on dark.css by Ivan Sagalaev
         font-size: 2.5rem !important;
         padding: 0px 10% !important;
     }
-    
     #significado h4 {
         padding: 0px 15% !important;
     }
 }
-
 /* Celulares e tablets*/
+
 @media (min-width: 470px) and (max-width: 1170px) {
     .slides {
         top: 30% !important;
@@ -36,15 +33,12 @@ based on dark.css by Ivan Sagalaev
         line-height: 1;
     }
 }
-
 /*Computadores*/
 @media screen and (min-width: 1170px) {
     #inicial {
         width: 100% !important;
         height: 100% !important;
     }
-    
-    
     .slide1 {
         background-image: url('http://zuma.helloworldsoft.com/img/bg_video.png');
         padding-top: 10% !important;
@@ -53,35 +47,31 @@ based on dark.css by Ivan Sagalaev
         padding: 0px 5% !important;
         font-size: 1.8rem !important;
     }
-    
-     #significado h4 {
+    #significado h4 {
         padding: 0px 5% !important;
     }
 }
-
 /*Computadores e televisores*/
+
 @media screen and (min-width: 1470px) {
     .slide p {
-        padding: 0px 20% !important;
+        padding: 0px 18% !important;
         font-size: 2.0rem !important;
     }
-    
-      #significado h4 {
+    #significado h4 {
         padding: 0px 25% !important;
     }
 }
 
-
-@media (min-width:2000px) and (min-height: 970px)  {
+@media (min-width: 2000px) and (min-height: 970px) {
     .slide1 {
-        padding-top: 8% !important;
+        padding-top: 5% !important;
     }
 }
 
-
 @media screen and (min-height: 970px) {
     .slide1 {
-        padding-top: 20% !important;
+        padding-top: 10% !important;
     }
 }
 
@@ -92,15 +82,11 @@ based on dark.css by Ivan Sagalaev
 
 .reveal a {
     color: #d71f26;
-
-
-
 }
 
 .reveal a:hover {
     color: #f52434;
-     text-shadow: 1px 1px black !important;
-     
+    text-shadow: 1px 1px black !important;
 }
 
 .hljs {
