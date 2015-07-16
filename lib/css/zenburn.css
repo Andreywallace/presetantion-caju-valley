@@ -5,33 +5,67 @@ based on dark.css by Ivan Sagalaev
 
 */
 
-#inicial {
-    width: 100% !important;
-    height: 100% !important;
-}
-
 .slide1 {
-    background-image: url('http://zuma.helloworldsoft.com/img/bg_video.png');
     height: 100%;
 }
 
-.slide2 {
-    background-image: url('http://zuma.helloworldsoft.com/img/bg_video.png');
-    height: 100%;
-}
-
-.slide1 p {
-    padding: 0px 5% !important;
-    font-size: 1.8rem !important;
-}
-
-#acreditamos h3, #buscamos h3, #fazemos h3 {
+#acreditamos h3,
+#buscamos h3,
+#fazemos h3 {
     padding-bottom: 50px;
 }
 
-@media (min-width: 1170px) {
+
+
+@media screen and (max-width: 470px) {
+    .slides {
+        top: 38% !important;
+    }
+    .slide p {
+
+        font-size: 2.5rem !important;
+         padding: 0px 5% !important;
+    }
+}
+
+@media (min-width: 470px) and (max-width: 1170px) { 
+    .slides {
+        top: 30% !important;
+    }
+    .slide p {
+
+        font-size: 3.5rem !important;
+        
+    }
+
+}
+
+
+@media screen and (min-width: 1170px)  {
+    #inicial {
+        width: 100% !important;
+        height: 100% !important;
+    }
     .slide1 {
+        background-image: url('http://zuma.helloworldsoft.com/img/bg_video.png');
         padding-top: 10% !important;
+    }
+    .slide p {
+        padding: 0px 5% !important;
+        font-size: 1.8rem !important;
+    }
+}
+
+@media screen and (min-width: 1470px) {
+    .slide p {
+        padding: 0px 20% !important;
+        font-size: 2.0rem !important;
+    }
+}
+
+@media screen and (min-height: 970px) {
+    .slide1 {
+        padding-top: 20% !important;
     }
 }
 
@@ -40,14 +74,13 @@ based on dark.css by Ivan Sagalaev
     color: white;
 }
 
-
 .reveal a {
-color:#d71f26;
-}
-.reveal a:hover {
-color:#f52434;
+    color: #d71f26;
 }
 
+.reveal a:hover {
+    color: #f52434;
+}
 
 .hljs {
     display: block;

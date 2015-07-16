@@ -2759,7 +2759,7 @@
      */
     function showSlide(slide) {
 
-         
+
 
         // Show the slide element
         slide.style.display = 'block';
@@ -2778,7 +2778,7 @@
                 source.setAttribute('src', source.getAttribute('data-src'));
                 source.removeAttribute('data-src');
                 sources += 1;
-                
+
             });
 
             // If we rewrote sources for this video/audio element, we need
@@ -2808,7 +2808,10 @@
                 if (backgroundImage) {
 
                     background.style.backgroundImage = 'url(' + backgroundImage + ')';
-
+                    if (window.innerWidth < 980) {
+                        background.style.opacity = '0.4';
+                  
+                    }
                 }
                 // Videos
                 else if (backgroundVideo && !isSpeakerNotes()) {
@@ -2839,8 +2842,8 @@
                 }
             }
         }
-        
-                  //Adicionanado o frameworking WOW.js
+
+        //Adicionanado o frameworking WOW.js
         var wow = new WOW({
             boxClass: 'wow', // default
             animateClass: 'animated', // default
@@ -2849,7 +2852,7 @@
             live: true // default
         })
 
- wow.init();       
+        wow.init();
 
     }
 
