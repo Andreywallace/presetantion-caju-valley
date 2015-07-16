@@ -9,43 +9,42 @@ based on dark.css by Ivan Sagalaev
     height: 100%;
 }
 
-#acreditamos h3,
-#buscamos h3,
-#fazemos h3 {
-    padding-bottom: 50px;
-}
 
 
-
+/* Celulares pequenos*/
 @media screen and (max-width: 470px) {
     .slides {
         top: 38% !important;
     }
     .slide p {
-
         font-size: 2.5rem !important;
-         padding: 0px 5% !important;
+        padding: 0px 10% !important;
+    }
+    
+    #significado h4 {
+        padding: 0px 15% !important;
     }
 }
 
-@media (min-width: 470px) and (max-width: 1170px) { 
+/* Celulares e tablets*/
+@media (min-width: 470px) and (max-width: 1170px) {
     .slides {
         top: 30% !important;
     }
     .slide p {
-
-        font-size: 3.5rem !important;
-        
+        font-size: 3.0rem !important;
+        line-height: 1;
     }
-
 }
 
-
-@media screen and (min-width: 1170px)  {
+/*Computadores*/
+@media screen and (min-width: 1170px) {
     #inicial {
         width: 100% !important;
         height: 100% !important;
     }
+    
+    
     .slide1 {
         background-image: url('http://zuma.helloworldsoft.com/img/bg_video.png');
         padding-top: 10% !important;
@@ -54,14 +53,31 @@ based on dark.css by Ivan Sagalaev
         padding: 0px 5% !important;
         font-size: 1.8rem !important;
     }
+    
+     #significado h4 {
+        padding: 0px 5% !important;
+    }
 }
 
+/*Computadores e televisores*/
 @media screen and (min-width: 1470px) {
     .slide p {
         padding: 0px 20% !important;
         font-size: 2.0rem !important;
     }
+    
+      #significado h4 {
+        padding: 0px 25% !important;
+    }
 }
+
+
+@media (min-width:2000px) and (min-height: 970px)  {
+    .slide1 {
+        padding-top: 8% !important;
+    }
+}
+
 
 @media screen and (min-height: 970px) {
     .slide1 {
@@ -76,10 +92,15 @@ based on dark.css by Ivan Sagalaev
 
 .reveal a {
     color: #d71f26;
+
+
+
 }
 
 .reveal a:hover {
     color: #f52434;
+     text-shadow: 1px 1px black !important;
+     
 }
 
 .hljs {

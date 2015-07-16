@@ -2808,10 +2808,11 @@
                 if (backgroundImage) {
 
                     background.style.backgroundImage = 'url(' + backgroundImage + ')';
-                    if (window.innerWidth < 980) {
+                   
+                    if (window.innerWidth < 1170) {
                         background.style.opacity = '0.4';
-                  
-                    }
+
+                    } 
                 }
                 // Videos
                 else if (backgroundVideo && !isSpeakerNotes()) {
