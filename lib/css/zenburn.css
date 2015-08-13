@@ -41,7 +41,7 @@ based on dark.css by Ivan Sagalaev
         height: 100% !important;
     }
     .slide1 {
-        background-image: url('http://zuma.helloworldsoft.com/img/bg_video.png');
+        background-image: url('../img/bg_video.png');
         padding-top: 10% !important;
     }
     .slide p {
