@@ -4639,3 +4639,14 @@
     return Reveal;
 
 }));
+
+
+
+$(function(){ 
+    if ($(window).width() > 960) {
+    $("p").text('Pressione o botão esquerdo para avançar ou slide ');
+}
+else {
+   $("p").text('Slide para a esquerda para continuar ');
+}
+});
